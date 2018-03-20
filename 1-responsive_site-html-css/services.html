@@ -7,9 +7,8 @@
     <meta name="author" content="Deepak Kumar">
     <meta name="description" content="this is a simple website built from scratch">
     <meta name="keywords" content="simple website, simple template, open source website">
-    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <title>scratch page | services</title>
-    <script src="main.js"></script>
 </head>
 
   <body>
@@ -21,9 +20,9 @@
         </div>
         <nav>
           <ul>
-            <li class="current"><a href="home.html" >Home</a></li>
+            <li><a href="home.html" >Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Contact</a></li>
+            <li class="current"><a href="services.html">Services</a></li>
           </ul>
         </nav>
       </div>
@@ -63,16 +62,17 @@
             </div>
         </article>
 
-        <aside id="sidebar" class="dark">
+        <aside id="sidebar" >
+          <div class="dark">
             <h3>Get a Quote</h3>
             <form action="" class="quote">
               <div>
                 <label for="">Name</label> <br>
-                <input type="text">
+                <input type="text" placeholder="name">
               </div>
               <div>
                   <label for="">Email</label><br>
-                  <input type="email">
+                  <input type="email" placeholder="email address">
               </div>
               <div>
                   <label>Message</label><br>
@@ -80,12 +80,13 @@
               </div>
               <button type="submit">Send</button>
             </form>
+          </div>
         </aside>
       </div>
     </section>
 
     <footer>
-      <p>Deepak Web design &copy; 2018</p>
+      <p>open Web design &copy; 2018</p>
     </footer>
   </body> 
 </html>
